@@ -40,11 +40,14 @@ To run this project locally, follow these steps:
 
   ```bash
   INSERT INTO books (id, title, author, price, description, release_year, image_url) VALUES
-  (1, 'The DNA Field and the Law of Resonance', 'Matt Haig', 14.99, 'Retired math teacher Grace Winters inherits a dilapidated house in Ibiza from a long-lost friend, prompting her to confront her past and uncover hidden secrets. This journey reveals the transformative power of hope and new beginnings.', 2024, 'https://m.media-amazon.com/images/I/71Bk-3JutTL._AC_UF1000,1000_QL80_.jpg'),
+  (1, 'The DNA Field and the Law of Resonance', 'Matt Haig', 14.99, 'Retired math teacher Grace Winters inherits a dilapidated house in Ibiza from a long-lost friend, prompting her to confront her past and uncover hidden secrets. This journey reveals the transformative power of hope and new beginnings.', 2024, 
+  'https://m.media-amazon.com/images/I/71Bk-3JutTL._AC_UF1000,1000_QL80_.jpg'),
   (2, 'Blindness', 'Jose Saramago', 12.50, 'Blindness, a powerful work by the masterful author, depicts society''s descent into brutality and highlights a woman''s solitary efforts in solidarity and resistance as humanity''s last hope.', 1995, 'https://m.media-amazon.com/images/I/71FeYR+eOVL._AC_UF1000,1000_QL80_.jpg'),
   (3, '1984', 'George Orwell', 18.00, 'A dystopian novel about a totalitarian regime.', 1949, 'https://thewonk.in/wp-content/uploads/2024/02/ninteen-eighty-four-book-review.jpg'),
-  (4, 'The Midnight Library', 'Matt Haig', 10.99, 'In a library on her last day, Nora discovers the opportunity to explore alternate lives and confront her regrets, ultimately questioning how to choose the best way to live among infinite possibilities.', 2020, 'https://m.media-amazon.com/images/I/71FsIkGF3pL._AC_UF350,350_QL50_.jpg'),
-  (5, 'A Kissing Hand for Chester Raccoon', 'Audrey Penn', 9.75, 'Little Racoon fears going to school, but Mother Racoon comforts him with a family secret called "The Kiss in Your Palm." Since 1993, this classic has helped millions of children cope with separation.', 2011, 'https://m.media-amazon.com/images/I/71u32vBkGDL._AC_UF1000,1000_QL80_.jpg'),
+  (4, 'The Midnight Library', 'Matt Haig', 10.99, 'In a library on her last day, Nora discovers the opportunity to explore alternate lives and confront her regrets, ultimately questioning how to choose the best way to live among infinite possibilities.', 2020, 'https://m.media- 
+  amazon.com/images/I/71FsIkGF3pL._AC_UF350,350_QL50_.jpg'),
+  (5, 'A Kissing Hand for Chester Raccoon', 'Audrey Penn', 9.75, 'Little Racoon fears going to school, but Mother Racoon comforts him with a family secret called "The Kiss in Your Palm." Since 1993, this classic has helped millions of children cope with separation.', 2011, 'https://m.media- 
+  amazon.com/images/I/71u32vBkGDL._AC_UF1000,1000_QL80_.jpg'),
   (6, 'War and Peace', 'Leo Tolstoy', 20.99, 'A historical novel that intertwines the lives of characters during the Napoleonic wars.', 1869, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAekuv2Owst1b9Tbe_XsJNfjPwPF_GiXhhFw&s');
 
   ALTER TABLE books OWNER TO book_user;
