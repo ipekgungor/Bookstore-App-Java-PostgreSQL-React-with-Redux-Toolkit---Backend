@@ -28,7 +28,6 @@ To run this project locally, follow these steps:
    ```bash
    CREATE DATABASE book_store
    
-   ```bash
    CREATE TABLE books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -39,7 +38,6 @@ To run this project locally, follow these steps:
     image_url VARCHAR(255)
   );
 
-  ```bash
   INSERT INTO books (id, title, author, price, description, release_year, image_url) VALUES
   (1, 'The DNA Field and the Law of Resonance', 'Matt Haig', 14.99, 'Retired math teacher Grace Winters inherits a dilapidated house in Ibiza from a long-lost friend, prompting her to confront her past and uncover hidden secrets. This journey reveals the transformative power of hope and new beginnings.', 2024, 'https://m.media-amazon.com/images/I/71Bk-3JutTL._AC_UF1000,1000_QL80_.jpg'),
   (2, 'Blindness', 'Jose Saramago', 12.50, 'Blindness, a powerful work by the masterful author, depicts society''s descent into brutality and highlights a woman''s solitary efforts in solidarity and resistance as humanity''s last hope.', 1995, 'https://m.media-amazon.com/images/I/71FeYR+eOVL._AC_UF1000,1000_QL80_.jpg'),
@@ -48,7 +46,6 @@ To run this project locally, follow these steps:
   (5, 'A Kissing Hand for Chester Raccoon', 'Audrey Penn', 9.75, 'Little Racoon fears going to school, but Mother Racoon comforts him with a family secret called "The Kiss in Your Palm." Since 1993, this classic has helped millions of children cope with separation.', 2011, 'https://m.media-amazon.com/images/I/71u32vBkGDL._AC_UF1000,1000_QL80_.jpg'),
   (6, 'War and Peace', 'Leo Tolstoy', 20.99, 'A historical novel that intertwines the lives of characters during the Napoleonic wars.', 1869, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAekuv2Owst1b9Tbe_XsJNfjPwPF_GiXhhFw&s');
 
-```bash
   ALTER TABLE books OWNER TO book_user;
   GRANT ALL PRIVILEGES ON TABLE books TO book_user;
   GRANT ALL ON SCHEMA public TO book_user;
