@@ -55,6 +55,7 @@ To run this project locally, follow these steps:
   ```
 4. Manage permissions
    ```bash
+   CREATE USER book_user WITH PASSWORD '123456';
    ALTER TABLE books OWNER TO book_user;
    GRANT ALL PRIVILEGES ON TABLE books TO book_user;
    GRANT ALL ON SCHEMA public TO book_user;
