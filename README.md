@@ -1,18 +1,18 @@
-# Book-Review-Application-with-React-and-Spring-Boot---MongoDB - Backend
+# Bookstore-App-Java-PostgreSQL-React-with-Redux-Toolkit - Backend
 
-This is a book sales page. Books are listed and users can add or remove any books they want from their cart. With the Redux toolkit, the cart can be viewed simultaneously on the entire page and changes can be tracked.
+This is a book sales application where books are listed, and users can add or remove any books they want from their cart. With the Redux Toolkit, the cart can be viewed simultaneously on the entire page, and changes can be tracked.
 
 ## Features
 
-- **Home Page:** Users can view pictures, titles and prices of books. If they wish, they can go to the book detail page or add it to their cart.
-- **Book Detail Page:** Photos, titles, descriptions, release year and prices of the books are listed. The user adds to the cart or returns to the home page.
-- **Cart Page:** The books in the basket are displayed. The number can be increased or decreased, or the book can be completely deleted from the basket.
-**Thanks to the cart icon in the header, users can view the current status of their carts on every page, remove items, and go to the cart detail page.**
+- **Home Page:** Users can view pictures, titles, and prices of books. If they wish, they can go to the book detail page or add the book to their cart.
+- **Book Detail Page:** Photos, titles, descriptions, release years, and prices of the books are listed. Users can add the book to the cart or return to the home page.
+- **Cart Page:** The books in the cart are displayed. The quantity can be increased or decreased, or the book can be completely removed from the cart.
+- **Cart Icon in Header:** Thanks to the cart icon in the header, users can view the current status of their carts on every page, remove items, and navigate to the cart detail page.
 
 ## Requirements
 
 - **Java:** 17 or later
-- **Maven:** 
+- **Maven:** Installed
 - **PostgreSQL:** Database management system
 
 ## Installation Instructions
