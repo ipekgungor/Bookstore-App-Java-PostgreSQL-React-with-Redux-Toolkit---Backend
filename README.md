@@ -64,7 +64,7 @@ To run this project locally, follow these steps:
    mvn clean install
    mvn spring-boot:run
    ```
-6. Once the application is running, navigate to http://localhost:8080 to use the app.
+6. Once the application is running, navigate to http://localhost:8080/api/books to use the app.
 
 ## Contact
 - **Developer:** İpek Güngör
