@@ -22,6 +22,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/ipekgungor/Bookstore-App-Java-PostgreSQL-React-with-Redux-Toolkit---Backend.git
    cd Bookstore-App-Java-PostgreSQL-React-with-Redux-Toolkit---Backend
+   ```
 
 2. Set up your PostgreSQL database:
    
@@ -37,6 +38,7 @@ To run this project locally, follow these steps:
     release_year INTEGER,
     image_url VARCHAR(255)
    );
+   ```
 3. Add data
 
   ```bash
@@ -50,13 +52,13 @@ To run this project locally, follow these steps:
   (5, 'A Kissing Hand for Chester Raccoon', 'Audrey Penn', 9.75, 'Little Racoon fears going to school, but Mother Racoon comforts him with a family secret called "The Kiss in Your Palm." Since 1993, this classic has helped millions of children cope with separation.', 2011, 'https://m.media- 
   amazon.com/images/I/71u32vBkGDL._AC_UF1000,1000_QL80_.jpg'),
   (6, 'War and Peace', 'Leo Tolstoy', 20.99, 'A historical novel that intertwines the lives of characters during the Napoleonic wars.', 1869, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAekuv2Owst1b9Tbe_XsJNfjPwPF_GiXhhFw&s');
-
+  ```
 4. Manage permissions
   ALTER TABLE books OWNER TO book_user;
   GRANT ALL PRIVILEGES ON TABLE books TO book_user;
   GRANT ALL ON SCHEMA public TO book_user;
 
-5. Run the application:
+6. Run the application:
    ```bash
    mvn clean install
    mvn spring-boot:run
