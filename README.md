@@ -54,15 +54,17 @@ To run this project locally, follow these steps:
   (6, 'War and Peace', 'Leo Tolstoy', 20.99, 'A historical novel that intertwines the lives of characters during the Napoleonic wars.', 1869, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAekuv2Owst1b9Tbe_XsJNfjPwPF_GiXhhFw&s');
   ```
 4. Manage permissions
-  ALTER TABLE books OWNER TO book_user;
-  GRANT ALL PRIVILEGES ON TABLE books TO book_user;
-  GRANT ALL ON SCHEMA public TO book_user;
-
-6. Run the application:
+   ```bash
+   ALTER TABLE books OWNER TO book_user;
+   GRANT ALL PRIVILEGES ON TABLE books TO book_user;
+   GRANT ALL ON SCHEMA public TO book_user;
+   ```
+5. Run the application:
    ```bash
    mvn clean install
    mvn spring-boot:run
-4. Once the application is running, navigate to http://localhost:8080 to use the app.
+   ```
+6. Once the application is running, navigate to http://localhost:8080 to use the app.
 
 ## Contact
 - **Developer:** İpek Güngör
