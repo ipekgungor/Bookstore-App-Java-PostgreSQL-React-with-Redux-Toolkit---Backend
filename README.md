@@ -38,6 +38,7 @@ To run this project locally, follow these steps:
     image_url VARCHAR(255)
   );
 
+  ```bash
   INSERT INTO books (id, title, author, price, description, release_year, image_url) VALUES
   (1, 'The DNA Field and the Law of Resonance', 'Matt Haig', 14.99, 'Retired math teacher Grace Winters inherits a dilapidated house in Ibiza from a long-lost friend, prompting her to confront her past and uncover hidden secrets. This journey reveals the transformative power of hope and new beginnings.', 2024, 'https://m.media-amazon.com/images/I/71Bk-3JutTL._AC_UF1000,1000_QL80_.jpg'),
   (2, 'Blindness', 'Jose Saramago', 12.50, 'Blindness, a powerful work by the masterful author, depicts society''s descent into brutality and highlights a woman''s solitary efforts in solidarity and resistance as humanity''s last hope.', 1995, 'https://m.media-amazon.com/images/I/71FeYR+eOVL._AC_UF1000,1000_QL80_.jpg'),
